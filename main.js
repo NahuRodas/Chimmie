@@ -154,7 +154,7 @@ let maxLocation = numberOfPages + 1;
 function openBook() {
   book.style.transform = 'translateX(50%)';
   prevBtn.style.transform = 'translateX(-320px)';
-  nextBtn.style.transform = 'translateX(220px)';
+  nextBtn.style.transform = 'translateX(320px)';
 }
 
 function closeBook(isAtBegining) {
