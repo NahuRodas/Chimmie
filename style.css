@@ -60,18 +60,19 @@ body{
   height: 100%;
   transform-origin: left;
   transition: transform 0.5s;
+  background-image: url('./resources/page-front-bg-1.png');
 }
 
 .front {
   z-index: 1;
   backface-visibility: hidden;
-  border-left: 3px solid black;
-  background: linear-gradient(to left, antiquewhite, bisque, burlywood);
+  border-radius: 0px 15px 15px 0px;
+
 }
 
 .back {
   z-index: 0;
-  background: linear-gradient(to right, burlywood, bisque, antiquewhite);
+  border-radius: 0px 15px 15px 0px;
 }
 
 .front-content,
@@ -108,6 +109,49 @@ body{
 .flipped .front,
 .flipped .back {
   transform: rotateY(-180deg);
+}
+
+
+/* Pages styles */
+
+#front-1{
+  background-image: url('./resources/real-books-are-the-best.jpg');
+}
+
+.lore{
+  display: block;
+  text-align: justify;
+  padding: 15px;
+  padding-left: 40px;
+  height: 100%;
+}
+
+.lore h1{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.lore p{
+  margin-top: 30px;
+}
+
+.lore-img{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lore-img img{
+  width: 400px;
+  filter: sepia(5);
+  border-radius: 50%;
+  border: 2px solid bisque;
+}
+
+
+#back-5{
+  background-color: rgb(107, 70, 48);
 }
 
 /* Pages order */
