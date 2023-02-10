@@ -10,14 +10,18 @@ document.querySelector('#app').innerHTML = `
     <div class="page" id='page-1'>
         <div class="front">
             <div class='front-content' id='front-1'>
-                <h1>FRONT</h1>
+                
             </div>
         </div>
         <div class="back">
             <div class='back-content' id='back-1'>
             <div class="lore">
               <h1>Lore</h1>
-              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+                  not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+                  with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                  including versions of Lorem Ipsum. </p>
               <div class="lore-img">
                 <img src="https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/chimmie-1.png" alt="Chimmie with rat">
               </div>
@@ -28,7 +32,19 @@ document.querySelector('#app').innerHTML = `
     <div class="page" id='page-2'>
         <div class="front">
             <div class='front-content' id='front-2'>
-                <h1>2</h1>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+                  not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+                  with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                  including versions of Lorem Ipsum. </p>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                including versions of Lorem Ipsum. </p>
+                <div class="container-img">
+                  <img src="http://placekitten.com/400/300" alt="Placeholder">
+                </div>
             </div>
         </div>
         <div class="back">
@@ -45,7 +61,11 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="back">
             <div class='back-content' id='back-3'>
-                <h1>5</h1>
+              <h3>Twitch</h3>
+              <div class="container-img twitch-img">
+                <img src="https://via.placeholder.com/400x300?text=Coming+soon" alt="Placeholder">
+              </div>
+              <a href="">Check it out</a>
             </div>
         </div>
     </div>

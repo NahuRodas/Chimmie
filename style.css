@@ -60,7 +60,7 @@ body{
   height: 100%;
   transform-origin: left;
   transition: transform 0.5s;
-  background-image: url('https: //raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/page-front-bg-1.png');
+  background-image: url('https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/page-front-bg-1.png');
 }
 
 .front {
@@ -115,7 +115,9 @@ body{
 /* Pages styles */
 
 #front-1{
-  background-image: url('./resources/real-books-are-the-best.jpg');
+  background-image: url('https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/real-books-are-the-best.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .lore{
@@ -147,6 +149,46 @@ body{
   filter: sepia(5);
   border-radius: 50%;
   border: 2px solid bisque;
+}
+
+#front-2{
+  display: block;
+  padding: 15px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+#front-2 p{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#back-3{
+  display: block;
+  padding: 15px;
+  padding-top: 60px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+#back-3 h3{
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+#back-3 img{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.container-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitch-img{
+  transform: rotatez(-15deg);
 }
 
 
