@@ -11,6 +11,24 @@ body{
   overflow: hidden;
 }
 
+h3{
+  font-size: 30px;
+}
+
+a{
+  font-size: 20px;
+}
+
+ul{
+  list-style: circle;
+  padding-left: 70px;
+}
+
+li{
+  margin-top: 30px;
+  text-align: left;
+}
+
 #app{
   height: 100vh;
   display: flex;
@@ -77,9 +95,10 @@ body{
 
 .front-content,
 .back-content {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
   height: 100%;
 }
@@ -115,7 +134,7 @@ body{
 /* Pages styles */
 
 #front-1{
-  background-image: url('https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/real-books-are-the-best.png');
+  background-image: url('https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/cover.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -137,14 +156,28 @@ body{
   margin-top: 30px;
 }
 
-.lore-img{
+.lore-img-chimmie{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lore-img-chimmie img{
+  width: 360px;
+  filter: sepia(5);
+  border-radius: 15px;
+  border: 2px solid bisque;
+}
+
+.lore-img-chimera {
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.lore-img img{
+.lore-img-chimera img {
   width: 400px;
   filter: sepia(5);
   border-radius: 50%;
@@ -155,12 +188,22 @@ body{
   display: block;
   padding: 15px;
   padding-right: 40px;
+  padding-top: 100px;
   text-align: justify;
 }
 
 #front-2 p{
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#front-2 img{
+  margin-top: 30px;
+}
+
+#back-2,
+#front-3{
+  padding-top: 50px;
 }
 
 #back-3{
@@ -174,11 +217,16 @@ body{
 #back-3 h3{
   margin-top: 30px;
   margin-bottom:30px;
+  font-size: 30px;
 }
 
 #back-3 img{
   padding-top: 30px;
   padding-bottom: 60px;
+}
+
+.pointer{
+  font-size: 40px;
 }
 
 .container-img{
@@ -187,13 +235,44 @@ body{
   justify-content: center;
 }
 
+.container-img img{
+  width: 500px;
+}
+
 .twitch-img{
   transform: rotatez(-15deg);
 }
 
+#front-4{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+
+.youtube-img{
+  margin: 10px;
+}
+.twitter-img{
+  margin: 10px;
+}
+
+.youtube{
+  margin-bottom: 40px;
+}
+
+#back-4,
+#front-5{
+  padding-top: 50px;
+}
 
 #back-5{
-  background-color: rgb(107, 70, 48);
+  background-image: url('https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Pages order */

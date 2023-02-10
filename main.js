@@ -17,14 +17,16 @@ document.querySelector('#app').innerHTML = `
             <div class='back-content' id='back-1'>
             <div class="lore">
               <h1>Lore</h1>
-              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
-                  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-                  not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
-                  with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                  including versions of Lorem Ipsum. </p>
-              <div class="lore-img">
-                <img src="https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/chimmie-1.png" alt="Chimmie with rat">
-              </div>
+              <p> Once upon a time in a desolate world, a demon king stood over everyone, dominating them with his powerful witchcraft.
+               The great and terrifying king had a curious hobby, he liked to create powerful weapons both magical and biological. 
+               One of his creations bordered on perfection: The CHIMERA, a being capable of absorb the power of other living
+                beings and use it at her will. </p>
+                <div class="lore-img-chimera">
+                  <img src="https://www.collinsdictionary.com/images/thumb/chimera_507919912_250.jpg?version=4.0.298" alt="Chimera">
+                </div>
+                <p>This creature was used by the king to destroy and dominate his enemies. She obeyed without hesitation since she did not 
+                know better. For her the king was everything and his word was the law, even if what she did were acts of pure evil it was impossible
+                 for her to know, she could not distinguish between good and evil. </p>
             </div>
             </div>
         </div>
@@ -32,70 +34,112 @@ document.querySelector('#app').innerHTML = `
     <div class="page" id='page-2'>
         <div class="front">
             <div class='front-content' id='front-2'>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
-                  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-                  not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
-                  with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                  including versions of Lorem Ipsum. </p>
+                <p> One morning when the king was not looking, the chimera escaped from the castle and took a short walk through a nearby forest. </p>
                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
                 ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-                not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
-                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-                including versions of Lorem Ipsum. </p>
-                <div class="container-img">
-                  <img src="http://placekitten.com/400/300" alt="Placeholder">
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                <div class="lore-img-chimmie">
+                  <img src="https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/chimmie-1.png" alt="Chimmie with rat">
                 </div>
             </div>
         </div>
         <div class="back">
             <div class='back-content' id='back-2'>
-                <h1>3</h1>
+                <h1>Design</h1>
+                <div>
+                  <img src="https://via.placeholder.com/400x550?text=Coming+soon" alt="Placeholder">
+                </div>
             </div>
         </div>
     </div>
     <div class="page" id='page-3'>
         <div class="front">
             <div class='front-content' id='front-3'>
-                <h1>4</h1>
+                <h1>Coming soon</h1>
+                <div>
+                  <img src="https://via.placeholder.com/400x550?text=Coming+soon" alt="Placeholder">
+                </div>
             </div>
         </div>
         <div class="back">
             <div class='back-content' id='back-3'>
-              <h3>Twitch</h3>
+              <h3><i class='bx bxl-twitch'></i>Twitch</h3>
               <div class="container-img twitch-img">
                 <img src="https://via.placeholder.com/400x300?text=Coming+soon" alt="Placeholder">
               </div>
-              <a href="">Check it out</a>
+              <a href="https://www.twitch.tv/chimmiechan">Check it out</a>
+              <div><i class='bx bxs-hand-down bx-rotate-180 pointer' style='color:#8a00a8'  ></i></div>
             </div>
         </div>
     </div>
     <div class="page" id='page-4'>
         <div class="front">
             <div class='front-content' id='front-4'>
-                <h1>6</h1>
+              <div class="youtube">
+                <h3><i class='bx bxl-youtube' undefined ></i>Youtube</h3>
+                <div class="container-img youtube-img">
+                  <img src="https://via.placeholder.com/200x100?text=Coming+soon" alt="Placeholder">
+                </div>
+                <p>Coming soon</p>
+              </div>
+              <div class="twitter">
+                <h3><i class='bx bxl-twitter' ></i>Twitter</h3>
+                <div class="container-img twitter-img">
+                  <img src="https://via.placeholder.com/200x100?text=Coming+soon" alt="Placeholder">
+                </div>
+                <p>Coming soon</p>
+              </div>
             </div>
         </div>
         <div class="back">
             <div class='back-content' id='back-4'>
-                <h1>7</h1>
+                <h3>Subscribers/Members</h3>
+                <div class="list">
+                  <ul>
+                  <li>Sir Shitalot</li>
+                  <li>CallMeNahu</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  
+                </ul>
+                </div>
             </div>
         </div>
     </div>
     <div class="page" id='page-5'>
         <div class="front">
             <div class='front-content' id='front-5'>
-                <h1>8</h1>
+                <h3>Subscribers/Members</h3>
+                <div class="list">
+                  <ul>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  <li>User</li>
+                  
+                </ul>
+                </div>
             </div>
         </div>
         <div class="back">
             <div class='back-content' id='back-5'>
-                <h1>BACK</h1>
+                
             </div>
         </div>
     </div>
 </div>
 
 <button class='btn next-btn' id='next-btn'><i class='bx bxs-chevron-right-circle'></i></button>
+<audio autoplay loop>
+  <source src="https://www.youtube.com/watch?v=pgLjYsVP4H0" type="audio/mpeg">
+</audio>
 `;
 
 const prevBtn = document.querySelector('.prev-btn');
