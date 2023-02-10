@@ -3,6 +3,11 @@ import './style.css';
 document.querySelector('#app').innerHTML = `
 <div class="bg">
 </div>
+<button class='btn audio-btn-on' id='audio-btn-on'><i class='bx bxs-bell' ></i></button>
+<button class='btn audio-btn-off' id='audio-btn-off'><i class='bx bxs-bell-off' ></i></button>
+<audio id="audio" autoplay loop preload>
+  <source src="./resources/bg-song.mp3" type="audio/mpeg">
+</audio>
 
 <button class='btn prev-btn' id='prev-btn'><i class='bx bxs-chevron-left-circle'></i></button>
 
@@ -34,10 +39,14 @@ document.querySelector('#app').innerHTML = `
     <div class="page" id='page-2'>
         <div class="front">
             <div class='front-content' id='front-2'>
-                <p> One morning when the king was not looking, the chimera escaped from the castle and took a short walk through a nearby forest. </p>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
-                ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-                not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                <p> One morning when the king was not looking, the chimera escaped from the castle and took a short walk through a nearby forest. 
+                Suddenly she met a magic rat and with his powerful magic he gave voice to the chimera. The rat asked the chimera what was her name but she didn't had one,
+                the king never gave her one, after hearing this the rat decided that her name would be Chimmie.</p>
+                <p> What seemed to be a nice morning soon turned dark as the king, having sensed a powerful magic, found them. A magic 
+                capable of altering reality, the demon king needed that magic. He soon ordered Chimmie to kill the rat and absorb its powers, 
+                but she refused, now she had a voice wasn't afraid to let anyone hear her thoughts. Chimmie told the king how much she hated 
+                doing what he asked, but the king did not like this and in some unknown language he casted a curse on Chimmie. Fortunately his rat
+                 friend acted quickly and with his magic he teleported them both to a new realm, one of peace where they could both live their lives peacefully. </p>
                 <div class="lore-img-chimmie">
                   <img src="https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/chimmie-1.png" alt="Chimmie with rat">
                 </div>
@@ -45,7 +54,7 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="back">
             <div class='back-content' id='back-2'>
-                <h1>Design</h1>
+                <h1>Design front</h1>
                 <div>
                   <img src="https://via.placeholder.com/400x550?text=Coming+soon" alt="Placeholder">
                 </div>
@@ -55,7 +64,7 @@ document.querySelector('#app').innerHTML = `
     <div class="page" id='page-3'>
         <div class="front">
             <div class='front-content' id='front-3'>
-                <h1>Coming soon</h1>
+                <h1>Design side</h1>
                 <div>
                   <img src="https://via.placeholder.com/400x550?text=Coming+soon" alt="Placeholder">
                 </div>
@@ -137,14 +146,15 @@ document.querySelector('#app').innerHTML = `
 </div>
 
 <button class='btn next-btn' id='next-btn'><i class='bx bxs-chevron-right-circle'></i></button>
-<audio autoplay loop>
-  <source src="https://www.youtube.com/watch?v=pgLjYsVP4H0" type="audio/mpeg">
-</audio>
+
 `;
 
 const prevBtn = document.querySelector('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
+const audioBtnOn = document.querySelector('.audio-btn-on');
+const audiotBtnOff = document.querySelector('.audio-btn-off');
 const book = document.querySelector('#book');
+const audio = document.getElementById('audio');
 
 const page1 = document.querySelector('#page-1');
 const page2 = document.querySelector('#page-2');
@@ -236,3 +246,15 @@ function closeBook(isAtBegining) {
   prevBtn.style.transform = 'translateX(0px)';
   nextBtn.style.transform = 'translateX(0px)';
 }
+
+audioBtnOn.addEventListener('click', () => {
+  audio.pause();
+  audioBtnOn.style.display = "none";
+  audiotBtnOff.style.display = "block";
+});
+
+audiotBtnOff.addEventListener('click', () => {
+  audio.play();
+  audioBtnOn.style.display = "block";
+  audiotBtnOff.style.display = "none";
+});

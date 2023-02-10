@@ -37,6 +37,7 @@ li{
 }
 
 
+
 .bg {
   background-image: url('https://raw.githubusercontent.com/NahuRodas/Chimmie/main/resources/bg-1.jpg');
   background-size: auto;
@@ -198,7 +199,8 @@ li{
 }
 
 #front-2 img{
-  margin-top: 30px;
+  margin-top: 10px;
+  width: 300px;
 }
 
 #back-2,
@@ -295,4 +297,27 @@ li{
 
 #page-1 {
   z-index: 6;
+}
+
+.audio-btn-on,
+.audio-btn-off{
+  font-size: 40px;
+  position: fixed;
+    top: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+}
+
+.audio-btn-on {
+  display: block;
+}
+.audio-btn-off {
+  display: none;
+}
+
+.audio-btn-off:hover {
+  color: rgb(196, 196, 196);
+}
+.audio-btn-on:hover{
+  color: rgb(196, 196, 196);
 }
